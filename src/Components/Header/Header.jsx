@@ -17,23 +17,25 @@ const StyledHeader = styled.div`
 
 	.user-info {
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		gap: 1rem;
 		padding: 0px 1rem;
-		line-height: 1.5rem;
 
 		img {
-			width: 80px;
-			height: 80px;
+			width: 90px;
+			height: 90px;
 			border-radius: 50%;
 		}
 
 		h2 {
-			font-size: 1.3rem;
+			font-size: 1.5rem;
 			font-weight: bold;
 		}
 
 		p {
+			font-size: 1.2rem;
+			line-height: 2rem;
+			font-weight: 400;
 			color: gray;
 		}
 	}
