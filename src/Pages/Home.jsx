@@ -3,6 +3,7 @@ import Menu from '../Components/Menu/Menu';
 import { Timeline } from '../Components/Timeline/TimeLine';
 import config from '../../config.json';
 import { CSSReset } from '../global';
+import { Favorites } from '../Components/Favorites/Favorites';
 
 export function Home() {
 	return (
@@ -11,6 +12,7 @@ export function Home() {
 			<Menu />
 			<Header />
 			<Timeline playlists={config.playlists} />
+			<Favorites favoritos={config.favorites} />
 		</>
 	);
 }

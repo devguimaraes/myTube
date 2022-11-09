@@ -2,6 +2,29 @@
 	"nome": "Bruno Guimarães",
 	"job": "Developer Front-End",
 	"github": "devguimaraes",
+	"favorites": [
+		{
+			"name": "Paulo Silveira",
+			"photo": "https://avatars.githubusercontent.com/u/71636?v=4",
+			"url": "https://github.com/peas"
+		},
+		{
+			"name": "Mario Souto",
+			"photo": "https://avatars.githubusercontent.com/u/13791385?v=4",
+			"url": "https://github.com/omariosouto"
+		},
+		{
+			"name": "Filipe Deschamps",
+			"photo": "https://avatars.githubusercontent.com/u/4248081?v=4",
+			"url": "https://github.com/filipedeschamps"
+		},
+		{
+			"name": "Bruno Guimarães",
+			"photo": "https://avatars.githubusercontent.com/u/40476182?v=4",
+			"url": "https://github.com/devguimaraes"
+		}
+	],
+
 	"playlists": {
 		"jogos": [
 			{
