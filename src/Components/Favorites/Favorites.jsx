@@ -21,9 +21,9 @@ export function Favorites({ favoritos }) {
 				<section>
 					<h2>Favoritos</h2>
 					<div>
-						{favoritos.map((dataAtributes, index) => (
+						{favoritos.map((dataAtributes) => (
 							<a
-								key={index}
+								key={dataAtributes.url}
 								href={dataAtributes.url}
 								target="_blank"
 								rel="noreferrer"
