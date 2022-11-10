@@ -50,10 +50,10 @@ exports[`Teste de Snapshot Snpashot da página Home 1`] = `
       </svg>
     </div>
     <div
-      class="StyledSearch-sc-spa11n-0 iPVabX"
+      class="StyledSearch-sc-spa11n-0 cCrCJm"
     >
       <input
-        placeholder="Search videos"
+        placeholder="Pesquisar"
         type="text"
         value=""
       />
@@ -92,19 +92,25 @@ exports[`Teste de Snapshot Snpashot da página Home 1`] = `
       <h2>
         jogos
       </h2>
-      <div />
+      <div>
+        Nenhum Vídeo encontrado
+      </div>
     </section>
     <section>
       <h2>
         front-end
       </h2>
-      <div />
+      <div>
+        Nenhum Vídeo encontrado
+      </div>
     </section>
     <section>
       <h2>
         back-end
       </h2>
-      <div />
+      <div>
+        Nenhum Vídeo encontrado
+      </div>
     </section>
   </div>
   <div
