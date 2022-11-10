@@ -1,5 +1,5 @@
 import { Header } from '../Components/Header/Header';
-import Menu from '../Components/Menu/Menu';
+import Menu from '../Components/Menu/Index';
 import { Timeline } from '../Components/Timeline/TimeLine';
 import config from '../../config.json';
 import { CSSReset } from '../global';
