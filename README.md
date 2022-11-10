@@ -21,6 +21,16 @@
 Esse projeto está sendo desenvolvido em uma imersão da Alura voltada para desenvolvedores front-end em React. 
 O projeto está sendo desenvolvido sob a orientação do instrutor Mario Souto com participação da desenvolvedora Nayanne Lopes e do CEO da Alura, Paulo Silveira.
 
+### Algumas funcionalidades do projeto:  
+
+- Input no menu realizando as buscas nos vídeos
+
+- Temas claro e escuro
+
+- Página para adicionar mais vídeos ao favoritos (pendente)
+
+- Abrir modal com vídeo em reprodução ao clicar na thumb (pendente) 
+
 ### Desenvolvimento
 
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:
@@ -43,12 +53,4 @@ Para iniciar a aplicação, rode o comando ```yarn dev ``` no terminal. Você de
   ➜  Network: use --host to expose
   ```
   
-### Algumas funcionalidades do projeto:  
 
-- Input no menu realizando as buscas nos vídeos
-
-- Temas claro e escuro
-
-- Página para adicionar mais vídeos ao favoritos (pendente)
-
-- Abrir modal com vídeo em reprodução ao clicar na thumb (pendente) 
