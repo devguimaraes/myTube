@@ -7,6 +7,7 @@ import { StyledTimeline } from '../StyledTimeline/StyledTimeline';
 export function Timeline(props) {
 	const playlistNames = Object.keys(props.playlists);
 	const { filtroVideos } = useFiltroContext();
+	let countVideos = 0;
 
 	return (
 		<StyledTimeline>
@@ -25,6 +26,7 @@ export function Timeline(props) {
 									return titleNormalized.includes(filtroNormalized);
 								})
 								.map((video, index2) => {
+									countVideos += 1;
 									return (
 										<a
 											key={index2}
@@ -37,6 +39,8 @@ export function Timeline(props) {
 										</a>
 									);
 								})}
+
+							{countVideos === 0 ? 'Nenhum Vídeo encontrado' : null}
 						</div>
 					</section>
 				);
