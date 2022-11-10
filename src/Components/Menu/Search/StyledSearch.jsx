@@ -22,6 +22,14 @@ const StyledSearch = styled.div`
 		color: ${({ theme }) => theme.textColorBase};
 		background-color: ${({ theme }) => theme.backgroundBase};
 	}
+
+	input::placeholder {
+		padding-left: 10px;
+		font-weight: 500;
+		font-size: 0.9rem;
+		text-align: start;
+	}
+
 	button {
 		flex: 1;
 		cursor: pointer;
@@ -49,7 +57,7 @@ export default function Search() {
 	return (
 		<StyledSearch>
 			<input
-				placeholder="Search videos"
+				placeholder="Pesquisar"
 				type="text"
 				onChange={(e) => setFiltroVideos(e.target.value)}
 				value={filtroVideos}
