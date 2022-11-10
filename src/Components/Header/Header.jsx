@@ -12,7 +12,10 @@ const StyledHeader = styled.div`
 		background-image: url('./images/banner.jpg');
 		background-repeat: no-repeat;
 		background-size: 100%;
-		margin-bottom: 1rem;
+
+		@media (min-width: 768px) {
+			margin-bottom: 1rem;
+		}
 	}
 
 	.user-info {
