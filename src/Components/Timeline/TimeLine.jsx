@@ -1,10 +1,12 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable arrow-body-style */
 /* eslint-disable react/destructuring-assignment */
+import { useFiltroContext } from '../../Context/Filtro';
 import { StyledTimeline } from '../StyledTimeline/StyledTimeline';
 
 export function Timeline(props) {
 	const playlistNames = Object.keys(props.playlists);
+	const { filtroVideos } = useFiltroContext();
 
 	return (
 		<StyledTimeline>
@@ -15,19 +17,26 @@ export function Timeline(props) {
 					<section key={index}>
 						<h2>{namePlaylist}</h2>
 						<div>
-							{videos.map((video, index2) => {
-								return (
-									<a
-										key={index2}
-										href={video.url}
-										target="_blank"
-										rel="noreferrer"
-									>
-										<img src={video.thumb} alt={video.title} />
-										<span>{video.title}</span>
-									</a>
-								);
-							})}
+							{videos
+								.filter((videosDoArray) => {
+									const titleNormalized = videosDoArray.title.toLowerCase();
+									const filtroNormalized = filtroVideos?.toLowerCase();
+
+									return titleNormalized.includes(filtroNormalized);
+								})
+								.map((video, index2) => {
+									return (
+										<a
+											key={index2}
+											href={video.url}
+											target="_blank"
+											rel="noreferrer"
+										>
+											<img src={video.thumb} alt={video.title} />
+											<span>{video.title}</span>
+										</a>
+									);
+								})}
 						</div>
 					</section>
 				);
