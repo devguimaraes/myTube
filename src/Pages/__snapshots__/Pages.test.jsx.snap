@@ -3,7 +3,7 @@
 exports[`Teste de Snapshot Snpashot da página Home 1`] = `
 <div>
   <header
-    class="Menu__StyledMenu-sc-sp3vut-0 gLiHCS"
+    class="Index__StyledMenu-sc-7xv6fb-0 enyTLz"
   >
     <div>
       <svg
@@ -49,9 +49,20 @@ exports[`Teste de Snapshot Snpashot da página Home 1`] = `
         />
       </svg>
     </div>
+    <div
+      class="StyledSearch-sc-spa11n-0 iPVabX"
+    >
+      <input
+        type="text"
+        value=""
+      />
+      <button>
+        🔎
+      </button>
+    </div>
   </header>
   <div
-    class="Header__StyledHeader-sc-2bgyev-0 LSWrq"
+    class="Header__StyledHeader-sc-2bgyev-0 idjVHP"
   >
     <div
       class="banner"
@@ -80,334 +91,19 @@ exports[`Teste de Snapshot Snpashot da página Home 1`] = `
       <h2>
         jogos
       </h2>
-      <div>
-        <a
-          href="https://www.youtube.com/watch?v=QsqatJxAUtk"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Frostpunk - Neve e Steak tartare"
-            src="https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
-          />
-          <span>
-            Frostpunk - Neve e Steak tartare
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=O8jtAyPuhNg"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Frostpunk - Neve e Steak tartare"
-            src="https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
-          />
-          <span>
-            Frostpunk - Neve e Steak tartare
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=R1d0DyRDG_Q"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Gas Station Simulator - 8 dias sem dormir!"
-            src="https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
-          />
-          <span>
-            Gas Station Simulator - 8 dias sem dormir!
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=0oJQUs5oRiM"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Gartic Phone - Não assista a esse NerdPlayer!"
-            src="https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
-          />
-          <span>
-            Gartic Phone - Não assista a esse NerdPlayer!
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=dXihyhYEsEc"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Netdecking Estraga o Magic?"
-            src="https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
-          />
-          <span>
-            Netdecking Estraga o Magic?
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=zybKHMgLCWU"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent"
-            src="https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
-          />
-          <span>
-            Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=UKgQsrHUG40"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="We Were Here Together - Os Enigmas deste Mundo"
-            src="https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
-          />
-          <span>
-            We Were Here Together - Os Enigmas deste Mundo
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=n3TneUb5c-w"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!"
-            src="https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
-          />
-          <span>
-            Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!
-          </span>
-        </a>
-      </div>
+      <div />
     </section>
     <section>
       <h2>
         front-end
       </h2>
-      <div>
-        <a
-          href="https://youtube.com/watch?v=jOAU81jdi-c"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!"
-            src="https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
-          />
-          <span>
-            Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=llF6vD-RljE"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!"
-            src="https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
-          />
-          <span>
-            Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=J4BVaXkwmM8"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="A Primeira Aula de Flutter Que Todo Mundo Deveria Ter"
-            src="https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
-          />
-          <span>
-            A Primeira Aula de Flutter Que Todo Mundo Deveria Ter
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=dp0zB4n3MUs"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?"
-            src="https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
-          />
-          <span>
-            O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=Yf0rC7dERjg"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador"
-            src="https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
-          />
-          <span>
-            Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=I36seuWUe5s"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Como Foi Programado um App Que Faz Mágica"
-            src="https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
-          />
-          <span>
-            Como Foi Programado um App Que Faz Mágica
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=yS7AcF-xRUg"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript"
-            src="https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
-          />
-          <span>
-            O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=HNjkqONzGS0"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="5 Erros Históricos do CSS"
-            src="https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
-          />
-          <span>
-            5 Erros Históricos do CSS
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=d9c0r-J6CdM"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End"
-            src="https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
-          />
-          <span>
-            Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End
-          </span>
-        </a>
-      </div>
+      <div />
     </section>
     <section>
       <h2>
         back-end
       </h2>
-      <div>
-        <a
-          href="https://www.youtube.com/watch?v=dvd3pNYh7So"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Node JS: Construindo CRUDs com file system focando em serialização e JSON"
-            src="https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
-          />
-          <span>
-            Node JS: Construindo CRUDs com file system focando em serialização e JSON
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=8q36rNS5yVo"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Node JS: Construindo CRUDs com file system focando em serialização e JSON"
-            src="https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
-          />
-          <span>
-            Node JS: Construindo CRUDs com file system focando em serialização e JSON
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=90NcVNsKGik"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="O que é o Java? #HipstersPontoTube"
-            src="https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
-          />
-          <span>
-            O que é o Java? #HipstersPontoTube
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=Iuz_jc96bQk"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="O que é Machine Learning? #HipstersPontoTube"
-            src="https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
-          />
-          <span>
-            O que é Machine Learning? #HipstersPontoTube
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=imB0QVoNrGc"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube"
-            src="https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
-          />
-          <span>
-            A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=ldRbnpy-qQs"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube"
-            src="https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
-          />
-          <span>
-            Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube
-          </span>
-        </a>
-        <a
-          href="https://www.youtube.com/watch?v=0JWMVc1CqpA"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img
-            alt="O que é o C#? #HipstersPontoTube"
-            src="https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
-          />
-          <span>
-            O que é o C#? #HipstersPontoTube
-          </span>
-        </a>
-      </div>
+      <div />
     </section>
   </div>
   <div
