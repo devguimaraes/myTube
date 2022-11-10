@@ -53,6 +53,7 @@ exports[`Teste de Snapshot Snpashot da página Home 1`] = `
       class="StyledSearch-sc-spa11n-0 iPVabX"
     >
       <input
+        placeholder="Search videos"
         type="text"
         value=""
       />
