@@ -29,6 +29,7 @@ module.exports = {
     'react', 'html',
   ],
   rules: {
+		"import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     'no-console': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': ['off'],
