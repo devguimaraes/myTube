@@ -19,7 +19,7 @@ export const StyledTimeline = styled.div`
 	*::-webkit-scrollbar-thumb {
 		background-color: ${({ theme }) => theme.borderBase || '#b3b2b3'};
 		border-radius: 10px;
-		border: 2px solid #000;
+		border: 2px solid #1c1c1c;
 	}
 
 	flex: 1;
