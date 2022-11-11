@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import DarkModeSwitch from './DarkModeSwitch/DarkModeSwitch';
 import Search from './Search/StyledSearch';
 
 const StyledMenu = styled.header`
@@ -25,13 +26,17 @@ const StyledMenu = styled.header`
 	}
 `;
 
+// TODO trocar o href por Link ou NavLink e verificar por a imagem não carrega;
 export default function Menu() {
 	return (
 		<StyledMenu>
 			<div>
-				<Logo />
+				<a href="/">
+					<Logo />
+				</a>
 			</div>
 			<Search />
+			<DarkModeSwitch />
 		</StyledMenu>
 	);
 }
