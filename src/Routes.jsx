@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { React } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Videos } from './Components/PageVideos';
+import { Videos } from './Pages/PageVideos';
 
 import { Home } from './Pages/Home';
 

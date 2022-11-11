@@ -3,7 +3,7 @@
 import { useParams } from 'react-router-dom';
 import { React, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import Menu from '../Menu/Index';
+import Menu from '../../Components/Menu/Index';
 import config from '../../../config.json';
 
 export const DivVideos = styled.div`
