@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import DarkModeSwitch from './DarkModeSwitch/DarkModeSwitch';
 import Search from './Search/StyledSearch';
@@ -31,9 +32,9 @@ export default function Menu() {
 	return (
 		<StyledMenu>
 			<div>
-				<a href="/">
+				<Link to="/">
 					<Logo />
-				</a>
+				</Link>
 			</div>
 			<Search />
 			<DarkModeSwitch />
