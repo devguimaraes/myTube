@@ -4,6 +4,7 @@ import { Timeline } from '../Components/Timeline/TimeLine';
 import config from '../../config.json';
 
 import { Favorites } from '../Components/Favorites/Favorites';
+import RegisterVideo from '../Components/RegisterVideo';
 
 export function Home() {
 	return (
@@ -12,6 +13,7 @@ export function Home() {
 			<Header />
 			<Timeline playlists={config.playlists} />
 			<Favorites favoritos={config.favorites} />
+			<RegisterVideo />
 		</>
 	);
 }
