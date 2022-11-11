@@ -1,6 +1,27 @@
 import styled from 'styled-components';
 
 export const StyledTimeline = styled.div`
+	* {
+		scrollbar-width: auto;
+		scrollbar-color: ${({ theme }) => theme.borderBase || '#b3b2b3'};
+	}
+
+	/* Chrome, Edge, and Safari */
+	*::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	*::-webkit-scrollbar-track {
+		border-radius: 400px;
+		background: ${({ theme }) => theme.borderBase || '#b3b2b3'};
+	}
+
+	*::-webkit-scrollbar-thumb {
+		background-color: ${({ theme }) => theme.borderBase || '#b3b2b3'};
+		border-radius: 10px;
+		border: 2px solid #000;
+	}
+
 	flex: 1;
 	width: 100%;
 	padding: 16px;
