@@ -27,12 +27,11 @@ const StyledMenu = styled.header`
 	}
 `;
 
-// TODO trocar o href por Link ou NavLink e verificar por a imagem não carrega;
 export default function Menu() {
 	return (
 		<StyledMenu>
 			<div>
-				<Link to="/">
+				<Link to={-1}>
 					<Logo />
 				</Link>
 			</div>

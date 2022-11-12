@@ -1,5 +1,7 @@
+/* eslint-disable prefer-destructuring */
 /* eslint-disable react/button-has-type */
 import { React, useState } from 'react';
+import { v4 } from 'uuid';
 import { StyledRegisterVideo } from './styles';
 
 // Whiteboarding
@@ -9,10 +11,10 @@ function useForm(propsDoForm) {
 
 	return {
 		values,
-		handleChange: ({ evento }) => {
+		handleChange: (evento) => {
 			console.log(evento.target);
-			const { value } = evento.target;
-			const { name } = evento.target;
+			const value = evento.target.value;
+			const name = evento.target.name;
 			setValues({
 				...values,
 				[name]: value,
@@ -26,7 +28,7 @@ function useForm(propsDoForm) {
 
 export default function RegisterVideo() {
 	const formCadastro = useForm({
-		initialValues: { titulo: 'Frost punk', url: 'https://youtube..' },
+		initialValues: { titulo: 'Frost punk', url: 'https://youtube..', id: v4() },
 	});
 	const [formVisivel, setFormVisivel] = useState(false);
 	/*
@@ -43,6 +45,20 @@ export default function RegisterVideo() {
 			<button className="add-video" onClick={() => setFormVisivel(true)}>
 				+
 			</button>
+			{
+				{
+					/* TODO REFAZER O FORMULÁRIO USANDO HOOK FORM
+				- Fazer validacao dos campos inputs
+					- Os campos são obrigatorios
+					- Regex da url
+					- nome precisa ter no minimo três caracteres
+
+
+				- OPCIONAL - Pega o thumb do do vídeo pela URL passada.
+
+		*/
+				}
+			}
 			{/* Ternário */}
 			{/* Operadores de Curto-circuito */}
 			{formVisivel ? (
