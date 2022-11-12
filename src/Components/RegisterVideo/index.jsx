@@ -40,25 +40,23 @@ export default function RegisterVideo() {
     - Limpar o formulário após o Submit
     */
 
+	/* TODO REFAZER O FORMULÁRIO USANDO HOOK FORM
+		- Fazer validacao dos campos inputs
+			- Os campos são obrigatorios
+			- Regex da url
+			- nome precisa ter no minimo três caracteres
+
+
+		- OPCIONAL - Pega o thumb do do vídeo pela URL passada.
+
+*/
+
 	return (
 		<StyledRegisterVideo>
 			<button className="add-video" onClick={() => setFormVisivel(true)}>
 				+
 			</button>
-			{
-				{
-					/* TODO REFAZER O FORMULÁRIO USANDO HOOK FORM
-				- Fazer validacao dos campos inputs
-					- Os campos são obrigatorios
-					- Regex da url
-					- nome precisa ter no minimo três caracteres
 
-
-				- OPCIONAL - Pega o thumb do do vídeo pela URL passada.
-
-		*/
-				}
-			}
 			{/* Ternário */}
 			{/* Operadores de Curto-circuito */}
 			{formVisivel ? (
