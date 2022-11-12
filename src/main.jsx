@@ -2,6 +2,7 @@
 import { React, useContext } from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
+import RegisterVideo from './Components/RegisterVideo';
 import ColorModeProvider, { ColorModeContext } from './Context/ColorMode';
 import { FiltroProvider } from './Context/Filtro';
 import { CSSReset } from './global';
@@ -39,6 +40,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 			<MyApp>
 				<CSSReset />
 				<AppRouter />
+				<RegisterVideo />
 			</MyApp>
 		</ColorModeProvider>
 	</FiltroProvider>
